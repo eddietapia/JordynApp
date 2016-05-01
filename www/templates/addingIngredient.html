@@ -1,0 +1,33 @@
+<ion-view title="Adding Ingredient" id="page7" style="background-color:#6D2F69;">
+    <ion-content padding="true" class="has-header">
+        <div class="list card">
+            <div class="item item-divider">Choose the ingredient</div>
+            <div class="item item-body">
+                <form class="list">
+                    <label class="item item-input">
+                        <span class="input-label">Name of Ingredient</span>
+                        <input type="text" placeholder="Ex: flour">
+                    </label>
+                    <label class="item item-select">
+                        <span class="input-label">Measure in:</span>
+                        <select>
+                            <option>Tablespoon</option>
+                            <option>Teaspoon</option>
+                            <option>Cup</option>
+                            <option>ounces</option>
+                        </select>
+                    </label>
+                </form>
+            </div>
+        </div>
+        <a ui-sref="menu.ingredients" id="addingIngredient-button5" class="button button-positive  button-block icon-left ion-android-add-circle">Add ingredient to the list</a>
+        <div class="list card">
+            <div class="item item-divider">Ingredients spots available</div>
+            <div class="item item-body">
+                <div id="addingIngredient-markdown2" style="color:#000000;font-size:24px;text-align:center;">
+                    <p>Spots available: 4 spots available</p>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
